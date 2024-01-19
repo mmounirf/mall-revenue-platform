@@ -25,7 +25,6 @@ import {
 import ShopsSummary from './components/ShopsSummary';
 import TotalSummary from './components/TotalSummary';
 
-
 export const DashboardPage = () => {
     const [graphAreas, setGraphAreas] = useState<string[]>(['revenue', 'sales', 'refunds']);
     const [dateRange, setDateRange] = useState<DateRangePickerValue>([lastMonth, today]);
@@ -37,14 +36,15 @@ export const DashboardPage = () => {
         to: dayjs(dateRange[1] ?? today).format('YYYY-MM-DD'),
     });
 
-
-
-
-    const chartData = sumByDate(sortShopsSales(extractShopsSales(mallShopsSales?.shops ?? GetStakeholderMallResponseData[Math.floor(Math.random() * (10 - 0) + 0)].shops)));
-
+    const chartData = sumByDate(
+        sortShopsSales(
+            extractShopsSales(
+                mallShopsSales?.shops ?? GetStakeholderMallResponseData[Math.floor(Math.random() * (10 - 0) + 0)].shops,
+            ),
+        ),
+    );
 
     const shopsSummary = mallData?.summary ?? GetMallResponseData[Math.floor(Math.random() * (10 - 0) + 0)].summary;
-
 
     return (
         <Paper radius="md" p="xl" withBorder>

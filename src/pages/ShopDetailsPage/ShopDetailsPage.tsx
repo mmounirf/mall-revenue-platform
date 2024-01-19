@@ -17,19 +17,15 @@ import ShopInvoicesTable from './components/ShopInvoicesTable';
 
 import type { DateRangePickerValue } from '@mantine/dates';
 
-
-
-
-
 export const ShopDetailsPage = () => {
     const { id } = useParams();
     const [dateRange, setDateRange] = useState<DateRangePickerValue>([lastMonth, today]);
     const currentScopeId = useAppSelector((state) => state.currentScope.id);
-    const { data: shopData, isFetching: isShopLoading } = useGetMallShopQuery(
+    const { isFetching: isShopLoading } = useGetMallShopQuery(
         { mallId: currentScopeId, shopId: id as string },
         { skip: id === undefined },
     );
-    const { data: invoicesData, isFetching: isInvoicesLoading } = useGetMallShopInvoicesWithFilterQuery(
+    const { isFetching: isInvoicesLoading } = useGetMallShopInvoicesWithFilterQuery(
         {
             mallId: currentScopeId,
             shopId: id as string,
@@ -39,18 +35,11 @@ export const ShopDetailsPage = () => {
         { skip: id === undefined },
     );
 
-    const defaultSummary = {
-        count: 0,
-        value: 0,
-        refundCount: 0,
-        refundValue: 0,
-    };
-
-
-
-    const chartData = sumShopInvoicesByDate(extractShopInvoices(GetMallShopInvoicesResponseData[Math.floor(Math.random() * (10 - 0) + 0)].invoices ?? []));
-    const mockInvoices = GetMallShopInvoicesResponseData[Math.floor(Math.random() * (10 - 0) + 0)]
-    const mockShopData = GetMallShopResponseData[Math.floor(Math.random() * (10 - 0) + 0)]
+    const chartData = sumShopInvoicesByDate(
+        extractShopInvoices(GetMallShopInvoicesResponseData[Math.floor(Math.random() * (10 - 0) + 0)].invoices ?? []),
+    );
+    const mockInvoices = GetMallShopInvoicesResponseData[Math.floor(Math.random() * (10 - 0) + 0)];
+    const mockShopData = GetMallShopResponseData[Math.floor(Math.random() * (10 - 0) + 0)];
 
     return (
         <>

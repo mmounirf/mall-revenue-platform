@@ -17,13 +17,15 @@ export const SalesPage = () => {
     const [graphAreas, setGraphAreas] = useState<string[]>(['revenue', 'sales', 'refunds']);
     const [dateRange, setDateRange] = useState<DateRangePickerValue>([lastMonth, today]);
     const currentScope = useAppSelector((state) => state.currentScope);
-    const { data: mallShopsSales, isFetching: isMallShopsSalesLoading } = useGetStakeholderMallQuery({
+    const { isFetching: isMallShopsSalesLoading } = useGetStakeholderMallQuery({
         id: currentScope.id,
         from: dayjs(dateRange[0] ?? lastMonth).format('YYYY-MM-DD'),
         to: dayjs(dateRange[1] ?? today).format('YYYY-MM-DD'),
     });
 
-    const shopsWithBrandName = (GetStakeholderMallResponseData[Math.floor(Math.random() * (10 - 0) + 0)]?.shops ?? []).filter((shop) => shop.brand?.name);
+    const shopsWithBrandName = (
+        GetStakeholderMallResponseData[Math.floor(Math.random() * (10 - 0) + 0)]?.shops ?? []
+    ).filter((shop) => shop.brand?.name);
 
     const sumByBrand = shopsWithBrandName.reduce((acc: ShopSales[], curr: ShopSales) => {
         const existingShop = acc.find((shop) => shop.id === curr.id);

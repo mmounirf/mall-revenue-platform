@@ -12,9 +12,9 @@ export const ComparePage = () => {
     const [shopA, setShopA] = useState<string | null>(null);
     const [shopB, setShopB] = useState<string | null>(null);
 
-    const { data: mallShops, isFetching: isMallShopsLoading } = useGetMallShopsQuery({ id: currentScope.id });
+    const { isFetching: isMallShopsLoading } = useGetMallShopsQuery({ id: currentScope.id });
 
-    const shops = (GetMallShopResponseData).map(({ id, name, brand, status }) => {
+    const shops = GetMallShopResponseData.map(({ id, name, brand, status }) => {
         const disabled = status.label.trim() !== 'Integrated' && brand.name === null;
         const value = `${id}`;
         const label = disabled ? `(${id}) - Not integrated` : `${brand.name} (${name})`;

@@ -35,8 +35,6 @@ import {
 } from './../../utils';
 import { useStyles } from './styles';
 
-
-
 type ShopComparisonProps = {
     shop?: GetMallShopResponse;
     compareBy: string;
@@ -78,7 +76,7 @@ function ShopComparison({ shop, compareBy }: ShopComparisonProps) {
     const { classes } = useStyles();
     const [date, setDate] = useState(today);
 
-    const { data: shopInvoices, isFetching } = useGetMallShopInvoicesWithFilterQuery(
+    const { isFetching } = useGetMallShopInvoicesWithFilterQuery(
         {
             mallId: currentScopeId,
             shopId: shop?.id.toString() as string,
@@ -92,7 +90,9 @@ function ShopComparison({ shop, compareBy }: ShopComparisonProps) {
         return <Loader />;
     }
 
-    const chartData = sumShopInvoicesByDate(extractShopInvoices(GetMallShopInvoicesResponseData[Math.floor(Math.random() * (10 - 0) + 0)].invoices ?? []));
+    const chartData = sumShopInvoicesByDate(
+        extractShopInvoices(GetMallShopInvoicesResponseData[Math.floor(Math.random() * (10 - 0) + 0)].invoices ?? []),
+    );
 
     return (
         <>
@@ -153,7 +153,11 @@ function ShopComparison({ shop, compareBy }: ShopComparisonProps) {
                     </Grid.Col>
 
                     <Grid.Col span="auto">
-                        <ShopInvoicesSummary {...(GetMallShopInvoicesResponseData[Math.floor(Math.random() * (10 - 0) + 0)].summary ?? defaultSummary)} loading={isFetching} />
+                        <ShopInvoicesSummary
+                            {...(GetMallShopInvoicesResponseData[Math.floor(Math.random() * (10 - 0) + 0)].summary ??
+                                defaultSummary)}
+                            loading={isFetching}
+                        />
                         <Text size="xs" mt="md">
                             Summary from <Badge variant="filled">{dayjs(date).format('DD MMM YYYY')}</Badge> to{' '}
                             <Badge variant="filled">{manipulateDate(compareBy, date).format('DD MMM YYYY')}</Badge>

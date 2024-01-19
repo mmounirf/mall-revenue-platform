@@ -9,8 +9,6 @@ import { formatTimestamp } from '../../utils';
 
 import { shopColumnsDef, type ShopData } from './ShopColumns';
 
-
-
 export const ShopsPage = () => {
     const navigate = useNavigate();
 

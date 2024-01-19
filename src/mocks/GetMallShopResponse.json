@@ -1,50 +1,454 @@
-[{"id":1,"name":"Pfeffer, Bradtke and Murphy","contract":{"start":"2020-01-05","end":"2021-03-30"},"brand":{"id":1,"name":"Colonial High Income Municipal Trust","brandType":{"id":1,"label":"Health"}},"status":{"id":1,"label":"integrated"},"lastSyncStatus":"2020-02-26"},
-{"id":2,"name":"Dietrich Inc","contract":{"start":"2020-01-11","end":"2021-08-14"},"brand":{"id":2,"name":"Seneca Foods Corp.","brandType":{"id":2,"label":"Shoes"}},"status":{"id":2,"label":"integrated"},"lastSyncStatus":"2022-08-21"},
-{"id":3,"name":"Heidenreich, McLaughlin and Lockman","contract":{"start":"2020-01-10","end":"2023-06-06"},"brand":{"id":3,"name":"PRA Group, Inc.","brandType":{"id":3,"label":"Music"}},"status":{"id":3,"label":"integrated"},"lastSyncStatus":"2023-02-03"},
-{"id":4,"name":"Douglas, Monahan and Watsica","contract":{"start":"2020-01-07","end":"2023-07-17"},"brand":{"id":4,"name":"DineEquity, Inc","brandType":{"id":4,"label":"Kids"}},"status":{"id":4,"label":"integrated"},"lastSyncStatus":"2020-08-18"},
-{"id":5,"name":"Bayer-Hudson","contract":{"start":"2020-01-06","end":"2022-03-13"},"brand":{"id":5,"name":"Ellie Mae, Inc.","brandType":{"id":5,"label":"Baby"}},"status":{"id":5,"label":"integrated"},"lastSyncStatus":"2021-03-05"},
-{"id":6,"name":"McGlynn-McKenzie","contract":{"start":"2020-01-02","end":"2021-06-13"},"brand":{"id":6,"name":"American Superconductor Corporation","brandType":{"id":6,"label":"Books"}},"status":{"id":6,"label":"integrated"},"lastSyncStatus":"2023-12-09"},
-{"id":7,"name":"Jast-Runte","contract":{"start":"2020-01-02","end":"2022-09-28"},"brand":{"id":7,"name":"FalconStor Software, Inc.","brandType":{"id":7,"label":"Jewelry"}},"status":{"id":7,"label":"integrated"},"lastSyncStatus":"2021-10-04"},
-{"id":8,"name":"Pollich-Klocko","contract":{"start":"2020-01-04","end":"2022-08-08"},"brand":{"id":8,"name":"Protective Life Corporation","brandType":{"id":8,"label":"Jewelry"}},"status":{"id":8,"label":"integrated"},"lastSyncStatus":"2023-05-30"},
-{"id":9,"name":"Gerlach Inc","contract":{"start":"2020-01-01","end":"2022-12-14"},"brand":{"id":9,"name":"Eaton Vance Short Diversified Income Fund","brandType":{"id":9,"label":"Outdoors"}},"status":{"id":9,"label":"integrated"},"lastSyncStatus":"2021-04-15"},
-{"id":10,"name":"Wunsch Group","contract":{"start":"2020-01-11","end":"2022-06-04"},"brand":{"id":10,"name":"RCI Hospitality Holdings, Inc.","brandType":{"id":10,"label":"Automotive"}},"status":{"id":10,"label":"integrated"},"lastSyncStatus":"2023-12-24"},
-{"id":11,"name":"Cummings LLC","contract":{"start":"2020-01-07","end":"2022-04-06"},"brand":{"id":11,"name":"Cincinnati Financial Corporation","brandType":{"id":11,"label":"Home"}},"status":{"id":11,"label":"integrated"},"lastSyncStatus":"2021-09-26"},
-{"id":12,"name":"Dicki Inc","contract":{"start":"2020-01-04","end":"2023-12-11"},"brand":{"id":12,"name":"Credit Suisse AG","brandType":{"id":12,"label":"Automotive"}},"status":{"id":12,"label":"integrated"},"lastSyncStatus":"2023-02-16"},
-{"id":13,"name":"Bartell-Deckow","contract":{"start":"2020-01-09","end":"2023-10-18"},"brand":{"id":13,"name":"Globant S.A.","brandType":{"id":13,"label":"Home"}},"status":{"id":13,"label":"integrated"},"lastSyncStatus":"2023-12-05"},
-{"id":14,"name":"Leannon Group","contract":{"start":"2020-01-05","end":"2021-05-13"},"brand":{"id":14,"name":"Foundation Building Materials, Inc.","brandType":{"id":14,"label":"Home"}},"status":{"id":14,"label":"integrated"},"lastSyncStatus":"2020-09-07"},
-{"id":15,"name":"Jacobs-Pfannerstill","contract":{"start":"2020-01-10","end":"2021-09-22"},"brand":{"id":15,"name":"Depomed, Inc.","brandType":{"id":15,"label":"Industrial"}},"status":{"id":15,"label":"integrated"},"lastSyncStatus":"2022-12-27"},
-{"id":16,"name":"Larson-Block","contract":{"start":"2020-01-07","end":"2023-08-11"},"brand":{"id":16,"name":"Virtus Total Return Fund Inc.","brandType":{"id":16,"label":"Baby"}},"status":{"id":16,"label":"integrated"},"lastSyncStatus":"2023-12-01"},
-{"id":17,"name":"Schulist, Shanahan and Leffler","contract":{"start":"2020-01-01","end":"2022-08-16"},"brand":{"id":17,"name":"Norwegian Cruise Line Holdings Ltd.","brandType":{"id":17,"label":"Garden"}},"status":{"id":17,"label":"integrated"},"lastSyncStatus":"2020-10-21"},
-{"id":18,"name":"Grimes Group","contract":{"start":"2020-01-03","end":"2023-07-09"},"brand":{"id":18,"name":"StoneMor Partners L.P.","brandType":{"id":18,"label":"Sports"}},"status":{"id":18,"label":"integrated"},"lastSyncStatus":"2022-01-27"},
-{"id":19,"name":"Morar, Schaden and Sanford","contract":{"start":"2020-01-06","end":"2021-01-22"},"brand":{"id":19,"name":"Eaton Vance NextShares Trust","brandType":{"id":19,"label":"Computers"}},"status":{"id":19,"label":"integrated"},"lastSyncStatus":"2021-01-21"},
-{"id":20,"name":"Toy Group","contract":{"start":"2020-01-05","end":"2024-01-04"},"brand":{"id":20,"name":"E.I. du Pont de Nemours and Company","brandType":{"id":20,"label":"Industrial"}},"status":{"id":20,"label":"integrated"},"lastSyncStatus":"2020-06-22"},
-{"id":21,"name":"Wiegand-Rau","contract":{"start":"2020-01-03","end":"2021-08-04"},"brand":{"id":21,"name":"Jewett-Cameron Trading Company","brandType":{"id":21,"label":"Electronics"}},"status":{"id":21,"label":"integrated"},"lastSyncStatus":"2022-05-22"},
-{"id":22,"name":"Streich, Daugherty and Kerluke","contract":{"start":"2020-01-03","end":"2022-11-06"},"brand":{"id":22,"name":"Bob Evans Farms, Inc.","brandType":{"id":22,"label":"Baby"}},"status":{"id":22,"label":"integrated"},"lastSyncStatus":"2020-06-15"},
-{"id":23,"name":"Bode and Sons","contract":{"start":"2020-01-04","end":"2022-03-04"},"brand":{"id":23,"name":"Keysight Technologies Inc.","brandType":{"id":23,"label":"Sports"}},"status":{"id":23,"label":"integrated"},"lastSyncStatus":"2023-11-15"},
-{"id":24,"name":"Olson, Bode and Marquardt","contract":{"start":"2020-01-02","end":"2022-01-24"},"brand":{"id":24,"name":"Viveve Medical, Inc.","brandType":{"id":24,"label":"Garden"}},"status":{"id":24,"label":"integrated"},"lastSyncStatus":"2022-11-21"},
-{"id":25,"name":"Fritsch, Cormier and Harvey","contract":{"start":"2020-01-10","end":"2021-08-02"},"brand":{"id":25,"name":"WildHorse Resource Development Corporation","brandType":{"id":25,"label":"Industrial"}},"status":{"id":25,"label":"integrated"},"lastSyncStatus":"2023-12-05"},
-{"id":26,"name":"Rohan, Klocko and Greenholt","contract":{"start":"2020-01-08","end":"2022-08-29"},"brand":{"id":26,"name":"Prudential Short Duration High Yield Fund, Inc.","brandType":{"id":26,"label":"Computers"}},"status":{"id":26,"label":"integrated"},"lastSyncStatus":"2022-06-13"},
-{"id":27,"name":"Turner-Jacobs","contract":{"start":"2020-01-08","end":"2022-02-26"},"brand":{"id":27,"name":"CareDx, Inc.","brandType":{"id":27,"label":"Home"}},"status":{"id":27,"label":"integrated"},"lastSyncStatus":"2021-11-27"},
-{"id":28,"name":"Tillman Group","contract":{"start":"2020-01-08","end":"2022-12-20"},"brand":{"id":28,"name":"Whirlpool Corporation","brandType":{"id":28,"label":"Shoes"}},"status":{"id":28,"label":"integrated"},"lastSyncStatus":"2020-11-09"},
-{"id":29,"name":"Bailey-Mertz","contract":{"start":"2020-01-07","end":"2021-11-30"},"brand":{"id":29,"name":"Natural Health Trends Corp.","brandType":{"id":29,"label":"Health"}},"status":{"id":29,"label":"integrated"},"lastSyncStatus":"2023-04-18"},
-{"id":30,"name":"Kuhic-Langworth","contract":{"start":"2020-01-10","end":"2023-06-09"},"brand":{"id":30,"name":"Nabriva Therapeutics AG","brandType":{"id":30,"label":"Music"}},"status":{"id":30,"label":"integrated"},"lastSyncStatus":"2021-01-08"},
-{"id":31,"name":"Schuster, West and Boyle","contract":{"start":"2020-01-11","end":"2022-05-14"},"brand":{"id":31,"name":"NASDAQ TEST STOCK","brandType":{"id":31,"label":"Movies"}},"status":{"id":31,"label":"integrated"},"lastSyncStatus":"2020-02-08"},
-{"id":32,"name":"Morissette, Lindgren and Emmerich","contract":{"start":"2020-01-06","end":"2021-05-06"},"brand":{"id":32,"name":"Voyager Therapeutics, Inc.","brandType":{"id":32,"label":"Health"}},"status":{"id":32,"label":"integrated"},"lastSyncStatus":"2022-03-08"},
-{"id":33,"name":"Hickle, Kunde and Halvorson","contract":{"start":"2020-01-01","end":"2021-03-10"},"brand":{"id":33,"name":"Drive Shack Inc.","brandType":{"id":33,"label":"Health"}},"status":{"id":33,"label":"integrated"},"lastSyncStatus":"2021-08-13"},
-{"id":34,"name":"Friesen, Roberts and Ondricka","contract":{"start":"2020-01-02","end":"2021-06-30"},"brand":{"id":34,"name":"LGI Homes, Inc.","brandType":{"id":34,"label":"Movies"}},"status":{"id":34,"label":"integrated"},"lastSyncStatus":"2023-05-28"},
-{"id":35,"name":"Cartwright-Corwin","contract":{"start":"2020-01-09","end":"2021-08-31"},"brand":{"id":35,"name":"Boston Private Financial Holdings, Inc.","brandType":{"id":35,"label":"Toys"}},"status":{"id":35,"label":"integrated"},"lastSyncStatus":"2021-11-07"},
-{"id":36,"name":"Doyle, King and Runte","contract":{"start":"2020-01-04","end":"2022-10-22"},"brand":{"id":36,"name":"Ameris Bancorp","brandType":{"id":36,"label":"Automotive"}},"status":{"id":36,"label":"integrated"},"lastSyncStatus":"2022-09-04"},
-{"id":37,"name":"Champlin and Sons","contract":{"start":"2020-01-05","end":"2021-08-25"},"brand":{"id":37,"name":"Camden Property Trust","brandType":{"id":37,"label":"Movies"}},"status":{"id":37,"label":"integrated"},"lastSyncStatus":"2022-11-20"},
-{"id":38,"name":"Cartwright Group","contract":{"start":"2020-01-03","end":"2023-04-13"},"brand":{"id":38,"name":"Honda Motor Company, Ltd.","brandType":{"id":38,"label":"Toys"}},"status":{"id":38,"label":"integrated"},"lastSyncStatus":"2020-12-02"},
-{"id":39,"name":"Kovacek-Mueller","contract":{"start":"2020-01-06","end":"2021-06-06"},"brand":{"id":39,"name":"Electronics for Imaging, Inc.","brandType":{"id":39,"label":"Shoes"}},"status":{"id":39,"label":"integrated"},"lastSyncStatus":"2023-02-20"},
-{"id":40,"name":"Hickle-Lakin","contract":{"start":"2020-01-10","end":"2021-06-30"},"brand":{"id":40,"name":"Farmer Brothers Company","brandType":{"id":40,"label":"Automotive"}},"status":{"id":40,"label":"integrated"},"lastSyncStatus":"2021-09-13"},
-{"id":41,"name":"Bechtelar, Bednar and Champlin","contract":{"start":"2020-01-07","end":"2022-10-08"},"brand":{"id":41,"name":"Ballard Power Systems, Inc.","brandType":{"id":41,"label":"Jewelry"}},"status":{"id":41,"label":"integrated"},"lastSyncStatus":"2021-07-11"},
-{"id":42,"name":"Shanahan, Dietrich and Auer","contract":{"start":"2020-01-08","end":"2022-09-23"},"brand":{"id":42,"name":"FlexShares STOXX US ESG Impact Index Fund","brandType":{"id":42,"label":"Industrial"}},"status":{"id":42,"label":"integrated"},"lastSyncStatus":"2020-01-22"},
-{"id":43,"name":"Robel, Kozey and Hane","contract":{"start":"2020-01-07","end":"2023-08-06"},"brand":{"id":43,"name":"Avenue Therapeutics, Inc.","brandType":{"id":43,"label":"Kids"}},"status":{"id":43,"label":"integrated"},"lastSyncStatus":"2022-07-01"},
-{"id":44,"name":"Kub, Mante and Gottlieb","contract":{"start":"2020-01-05","end":"2023-12-08"},"brand":{"id":44,"name":"Waste Management, Inc.","brandType":{"id":44,"label":"Computers"}},"status":{"id":44,"label":"integrated"},"lastSyncStatus":"2021-05-26"},
-{"id":45,"name":"Sporer-Rempel","contract":{"start":"2020-01-08","end":"2023-11-17"},"brand":{"id":45,"name":"Dynatronics Corporation","brandType":{"id":45,"label":"Automotive"}},"status":{"id":45,"label":"integrated"},"lastSyncStatus":"2020-01-09"},
-{"id":46,"name":"Ondricka, Connelly and Bartoletti","contract":{"start":"2020-01-01","end":"2022-07-10"},"brand":{"id":46,"name":"VictoryShares US Small Cap Volatility Wtd ETF","brandType":{"id":46,"label":"Automotive"}},"status":{"id":46,"label":"integrated"},"lastSyncStatus":"2020-11-18"},
-{"id":47,"name":"Kunde-Tillman","contract":{"start":"2020-01-02","end":"2023-11-30"},"brand":{"id":47,"name":"Opus Bank","brandType":{"id":47,"label":"Music"}},"status":{"id":47,"label":"integrated"},"lastSyncStatus":"2023-02-15"},
-{"id":48,"name":"Runolfsson LLC","contract":{"start":"2020-01-10","end":"2021-06-05"},"brand":{"id":48,"name":"Golden Ocean Group Limited","brandType":{"id":48,"label":"Garden"}},"status":{"id":48,"label":"integrated"},"lastSyncStatus":"2021-08-30"},
-{"id":49,"name":"Rutherford-Nikolaus","contract":{"start":"2020-01-06","end":"2023-01-01"},"brand":{"id":49,"name":"Marcus & Millichap, Inc.","brandType":{"id":49,"label":"Electronics"}},"status":{"id":49,"label":"integrated"},"lastSyncStatus":"2020-12-31"},
-{"id":50,"name":"Legros-Lebsack","contract":{"start":"2020-01-08","end":"2023-02-08"},"brand":{"id":50,"name":"Telecom Argentina Stet - France Telecom S.A.","brandType":{"id":50,"label":"Music"}},"status":{"id":50,"label":"integrated"},"lastSyncStatus":"2022-10-06"}]
+[
+    {
+        "id": 1,
+        "name": "Pfeffer, Bradtke and Murphy",
+        "contract": { "start": "2020-01-05", "end": "2021-03-30" },
+        "brand": {
+            "id": 1,
+            "name": "Colonial High Income Municipal Trust",
+            "brandType": { "id": 1, "label": "Health" }
+        },
+        "status": { "id": 1, "label": "integrated" },
+        "lastSyncStatus": "2020-02-26"
+    },
+    {
+        "id": 2,
+        "name": "Dietrich Inc",
+        "contract": { "start": "2020-01-11", "end": "2021-08-14" },
+        "brand": { "id": 2, "name": "Seneca Foods Corp.", "brandType": { "id": 2, "label": "Shoes" } },
+        "status": { "id": 2, "label": "integrated" },
+        "lastSyncStatus": "2022-08-21"
+    },
+    {
+        "id": 3,
+        "name": "Heidenreich, McLaughlin and Lockman",
+        "contract": { "start": "2020-01-10", "end": "2023-06-06" },
+        "brand": { "id": 3, "name": "PRA Group, Inc.", "brandType": { "id": 3, "label": "Music" } },
+        "status": { "id": 3, "label": "integrated" },
+        "lastSyncStatus": "2023-02-03"
+    },
+    {
+        "id": 4,
+        "name": "Douglas, Monahan and Watsica",
+        "contract": { "start": "2020-01-07", "end": "2023-07-17" },
+        "brand": { "id": 4, "name": "DineEquity, Inc", "brandType": { "id": 4, "label": "Kids" } },
+        "status": { "id": 4, "label": "integrated" },
+        "lastSyncStatus": "2020-08-18"
+    },
+    {
+        "id": 5,
+        "name": "Bayer-Hudson",
+        "contract": { "start": "2020-01-06", "end": "2022-03-13" },
+        "brand": { "id": 5, "name": "Ellie Mae, Inc.", "brandType": { "id": 5, "label": "Baby" } },
+        "status": { "id": 5, "label": "integrated" },
+        "lastSyncStatus": "2021-03-05"
+    },
+    {
+        "id": 6,
+        "name": "McGlynn-McKenzie",
+        "contract": { "start": "2020-01-02", "end": "2021-06-13" },
+        "brand": { "id": 6, "name": "American Superconductor Corporation", "brandType": { "id": 6, "label": "Books" } },
+        "status": { "id": 6, "label": "integrated" },
+        "lastSyncStatus": "2023-12-09"
+    },
+    {
+        "id": 7,
+        "name": "Jast-Runte",
+        "contract": { "start": "2020-01-02", "end": "2022-09-28" },
+        "brand": { "id": 7, "name": "FalconStor Software, Inc.", "brandType": { "id": 7, "label": "Jewelry" } },
+        "status": { "id": 7, "label": "integrated" },
+        "lastSyncStatus": "2021-10-04"
+    },
+    {
+        "id": 8,
+        "name": "Pollich-Klocko",
+        "contract": { "start": "2020-01-04", "end": "2022-08-08" },
+        "brand": { "id": 8, "name": "Protective Life Corporation", "brandType": { "id": 8, "label": "Jewelry" } },
+        "status": { "id": 8, "label": "integrated" },
+        "lastSyncStatus": "2023-05-30"
+    },
+    {
+        "id": 9,
+        "name": "Gerlach Inc",
+        "contract": { "start": "2020-01-01", "end": "2022-12-14" },
+        "brand": {
+            "id": 9,
+            "name": "Eaton Vance Short Diversified Income Fund",
+            "brandType": { "id": 9, "label": "Outdoors" }
+        },
+        "status": { "id": 9, "label": "integrated" },
+        "lastSyncStatus": "2021-04-15"
+    },
+    {
+        "id": 10,
+        "name": "Wunsch Group",
+        "contract": { "start": "2020-01-11", "end": "2022-06-04" },
+        "brand": {
+            "id": 10,
+            "name": "RCI Hospitality Holdings, Inc.",
+            "brandType": { "id": 10, "label": "Automotive" }
+        },
+        "status": { "id": 10, "label": "integrated" },
+        "lastSyncStatus": "2023-12-24"
+    },
+    {
+        "id": 11,
+        "name": "Cummings LLC",
+        "contract": { "start": "2020-01-07", "end": "2022-04-06" },
+        "brand": { "id": 11, "name": "Cincinnati Financial Corporation", "brandType": { "id": 11, "label": "Home" } },
+        "status": { "id": 11, "label": "integrated" },
+        "lastSyncStatus": "2021-09-26"
+    },
+    {
+        "id": 12,
+        "name": "Dicki Inc",
+        "contract": { "start": "2020-01-04", "end": "2023-12-11" },
+        "brand": { "id": 12, "name": "Credit Suisse AG", "brandType": { "id": 12, "label": "Automotive" } },
+        "status": { "id": 12, "label": "integrated" },
+        "lastSyncStatus": "2023-02-16"
+    },
+    {
+        "id": 13,
+        "name": "Bartell-Deckow",
+        "contract": { "start": "2020-01-09", "end": "2023-10-18" },
+        "brand": { "id": 13, "name": "Globant S.A.", "brandType": { "id": 13, "label": "Home" } },
+        "status": { "id": 13, "label": "integrated" },
+        "lastSyncStatus": "2023-12-05"
+    },
+    {
+        "id": 14,
+        "name": "Leannon Group",
+        "contract": { "start": "2020-01-05", "end": "2021-05-13" },
+        "brand": {
+            "id": 14,
+            "name": "Foundation Building Materials, Inc.",
+            "brandType": { "id": 14, "label": "Home" }
+        },
+        "status": { "id": 14, "label": "integrated" },
+        "lastSyncStatus": "2020-09-07"
+    },
+    {
+        "id": 15,
+        "name": "Jacobs-Pfannerstill",
+        "contract": { "start": "2020-01-10", "end": "2021-09-22" },
+        "brand": { "id": 15, "name": "Depomed, Inc.", "brandType": { "id": 15, "label": "Industrial" } },
+        "status": { "id": 15, "label": "integrated" },
+        "lastSyncStatus": "2022-12-27"
+    },
+    {
+        "id": 16,
+        "name": "Larson-Block",
+        "contract": { "start": "2020-01-07", "end": "2023-08-11" },
+        "brand": { "id": 16, "name": "Virtus Total Return Fund Inc.", "brandType": { "id": 16, "label": "Baby" } },
+        "status": { "id": 16, "label": "integrated" },
+        "lastSyncStatus": "2023-12-01"
+    },
+    {
+        "id": 17,
+        "name": "Schulist, Shanahan and Leffler",
+        "contract": { "start": "2020-01-01", "end": "2022-08-16" },
+        "brand": {
+            "id": 17,
+            "name": "Norwegian Cruise Line Holdings Ltd.",
+            "brandType": { "id": 17, "label": "Garden" }
+        },
+        "status": { "id": 17, "label": "integrated" },
+        "lastSyncStatus": "2020-10-21"
+    },
+    {
+        "id": 18,
+        "name": "Grimes Group",
+        "contract": { "start": "2020-01-03", "end": "2023-07-09" },
+        "brand": { "id": 18, "name": "StoneMor Partners L.P.", "brandType": { "id": 18, "label": "Sports" } },
+        "status": { "id": 18, "label": "integrated" },
+        "lastSyncStatus": "2022-01-27"
+    },
+    {
+        "id": 19,
+        "name": "Morar, Schaden and Sanford",
+        "contract": { "start": "2020-01-06", "end": "2021-01-22" },
+        "brand": { "id": 19, "name": "Eaton Vance NextShares Trust", "brandType": { "id": 19, "label": "Computers" } },
+        "status": { "id": 19, "label": "integrated" },
+        "lastSyncStatus": "2021-01-21"
+    },
+    {
+        "id": 20,
+        "name": "Toy Group",
+        "contract": { "start": "2020-01-05", "end": "2024-01-04" },
+        "brand": {
+            "id": 20,
+            "name": "E.I. du Pont de Nemours and Company",
+            "brandType": { "id": 20, "label": "Industrial" }
+        },
+        "status": { "id": 20, "label": "integrated" },
+        "lastSyncStatus": "2020-06-22"
+    },
+    {
+        "id": 21,
+        "name": "Wiegand-Rau",
+        "contract": { "start": "2020-01-03", "end": "2021-08-04" },
+        "brand": {
+            "id": 21,
+            "name": "Jewett-Cameron Trading Company",
+            "brandType": { "id": 21, "label": "Electronics" }
+        },
+        "status": { "id": 21, "label": "integrated" },
+        "lastSyncStatus": "2022-05-22"
+    },
+    {
+        "id": 22,
+        "name": "Streich, Daugherty and Kerluke",
+        "contract": { "start": "2020-01-03", "end": "2022-11-06" },
+        "brand": { "id": 22, "name": "Bob Evans Farms, Inc.", "brandType": { "id": 22, "label": "Baby" } },
+        "status": { "id": 22, "label": "integrated" },
+        "lastSyncStatus": "2020-06-15"
+    },
+    {
+        "id": 23,
+        "name": "Bode and Sons",
+        "contract": { "start": "2020-01-04", "end": "2022-03-04" },
+        "brand": { "id": 23, "name": "Keysight Technologies Inc.", "brandType": { "id": 23, "label": "Sports" } },
+        "status": { "id": 23, "label": "integrated" },
+        "lastSyncStatus": "2023-11-15"
+    },
+    {
+        "id": 24,
+        "name": "Olson, Bode and Marquardt",
+        "contract": { "start": "2020-01-02", "end": "2022-01-24" },
+        "brand": { "id": 24, "name": "Viveve Medical, Inc.", "brandType": { "id": 24, "label": "Garden" } },
+        "status": { "id": 24, "label": "integrated" },
+        "lastSyncStatus": "2022-11-21"
+    },
+    {
+        "id": 25,
+        "name": "Fritsch, Cormier and Harvey",
+        "contract": { "start": "2020-01-10", "end": "2021-08-02" },
+        "brand": {
+            "id": 25,
+            "name": "WildHorse Resource Development Corporation",
+            "brandType": { "id": 25, "label": "Industrial" }
+        },
+        "status": { "id": 25, "label": "integrated" },
+        "lastSyncStatus": "2023-12-05"
+    },
+    {
+        "id": 26,
+        "name": "Rohan, Klocko and Greenholt",
+        "contract": { "start": "2020-01-08", "end": "2022-08-29" },
+        "brand": {
+            "id": 26,
+            "name": "Prudential Short Duration High Yield Fund, Inc.",
+            "brandType": { "id": 26, "label": "Computers" }
+        },
+        "status": { "id": 26, "label": "integrated" },
+        "lastSyncStatus": "2022-06-13"
+    },
+    {
+        "id": 27,
+        "name": "Turner-Jacobs",
+        "contract": { "start": "2020-01-08", "end": "2022-02-26" },
+        "brand": { "id": 27, "name": "CareDx, Inc.", "brandType": { "id": 27, "label": "Home" } },
+        "status": { "id": 27, "label": "integrated" },
+        "lastSyncStatus": "2021-11-27"
+    },
+    {
+        "id": 28,
+        "name": "Tillman Group",
+        "contract": { "start": "2020-01-08", "end": "2022-12-20" },
+        "brand": { "id": 28, "name": "Whirlpool Corporation", "brandType": { "id": 28, "label": "Shoes" } },
+        "status": { "id": 28, "label": "integrated" },
+        "lastSyncStatus": "2020-11-09"
+    },
+    {
+        "id": 29,
+        "name": "Bailey-Mertz",
+        "contract": { "start": "2020-01-07", "end": "2021-11-30" },
+        "brand": { "id": 29, "name": "Natural Health Trends Corp.", "brandType": { "id": 29, "label": "Health" } },
+        "status": { "id": 29, "label": "integrated" },
+        "lastSyncStatus": "2023-04-18"
+    },
+    {
+        "id": 30,
+        "name": "Kuhic-Langworth",
+        "contract": { "start": "2020-01-10", "end": "2023-06-09" },
+        "brand": { "id": 30, "name": "Nabriva Therapeutics AG", "brandType": { "id": 30, "label": "Music" } },
+        "status": { "id": 30, "label": "integrated" },
+        "lastSyncStatus": "2021-01-08"
+    },
+    {
+        "id": 31,
+        "name": "Schuster, West and Boyle",
+        "contract": { "start": "2020-01-11", "end": "2022-05-14" },
+        "brand": { "id": 31, "name": "NASDAQ TEST STOCK", "brandType": { "id": 31, "label": "Movies" } },
+        "status": { "id": 31, "label": "integrated" },
+        "lastSyncStatus": "2020-02-08"
+    },
+    {
+        "id": 32,
+        "name": "Morissette, Lindgren and Emmerich",
+        "contract": { "start": "2020-01-06", "end": "2021-05-06" },
+        "brand": { "id": 32, "name": "Voyager Therapeutics, Inc.", "brandType": { "id": 32, "label": "Health" } },
+        "status": { "id": 32, "label": "integrated" },
+        "lastSyncStatus": "2022-03-08"
+    },
+    {
+        "id": 33,
+        "name": "Hickle, Kunde and Halvorson",
+        "contract": { "start": "2020-01-01", "end": "2021-03-10" },
+        "brand": { "id": 33, "name": "Drive Shack Inc.", "brandType": { "id": 33, "label": "Health" } },
+        "status": { "id": 33, "label": "integrated" },
+        "lastSyncStatus": "2021-08-13"
+    },
+    {
+        "id": 34,
+        "name": "Friesen, Roberts and Ondricka",
+        "contract": { "start": "2020-01-02", "end": "2021-06-30" },
+        "brand": { "id": 34, "name": "LGI Homes, Inc.", "brandType": { "id": 34, "label": "Movies" } },
+        "status": { "id": 34, "label": "integrated" },
+        "lastSyncStatus": "2023-05-28"
+    },
+    {
+        "id": 35,
+        "name": "Cartwright-Corwin",
+        "contract": { "start": "2020-01-09", "end": "2021-08-31" },
+        "brand": {
+            "id": 35,
+            "name": "Boston Private Financial Holdings, Inc.",
+            "brandType": { "id": 35, "label": "Toys" }
+        },
+        "status": { "id": 35, "label": "integrated" },
+        "lastSyncStatus": "2021-11-07"
+    },
+    {
+        "id": 36,
+        "name": "Doyle, King and Runte",
+        "contract": { "start": "2020-01-04", "end": "2022-10-22" },
+        "brand": { "id": 36, "name": "Ameris Bancorp", "brandType": { "id": 36, "label": "Automotive" } },
+        "status": { "id": 36, "label": "integrated" },
+        "lastSyncStatus": "2022-09-04"
+    },
+    {
+        "id": 37,
+        "name": "Champlin and Sons",
+        "contract": { "start": "2020-01-05", "end": "2021-08-25" },
+        "brand": { "id": 37, "name": "Camden Property Trust", "brandType": { "id": 37, "label": "Movies" } },
+        "status": { "id": 37, "label": "integrated" },
+        "lastSyncStatus": "2022-11-20"
+    },
+    {
+        "id": 38,
+        "name": "Cartwright Group",
+        "contract": { "start": "2020-01-03", "end": "2023-04-13" },
+        "brand": { "id": 38, "name": "Honda Motor Company, Ltd.", "brandType": { "id": 38, "label": "Toys" } },
+        "status": { "id": 38, "label": "integrated" },
+        "lastSyncStatus": "2020-12-02"
+    },
+    {
+        "id": 39,
+        "name": "Kovacek-Mueller",
+        "contract": { "start": "2020-01-06", "end": "2021-06-06" },
+        "brand": { "id": 39, "name": "Electronics for Imaging, Inc.", "brandType": { "id": 39, "label": "Shoes" } },
+        "status": { "id": 39, "label": "integrated" },
+        "lastSyncStatus": "2023-02-20"
+    },
+    {
+        "id": 40,
+        "name": "Hickle-Lakin",
+        "contract": { "start": "2020-01-10", "end": "2021-06-30" },
+        "brand": { "id": 40, "name": "Farmer Brothers Company", "brandType": { "id": 40, "label": "Automotive" } },
+        "status": { "id": 40, "label": "integrated" },
+        "lastSyncStatus": "2021-09-13"
+    },
+    {
+        "id": 41,
+        "name": "Bechtelar, Bednar and Champlin",
+        "contract": { "start": "2020-01-07", "end": "2022-10-08" },
+        "brand": { "id": 41, "name": "Ballard Power Systems, Inc.", "brandType": { "id": 41, "label": "Jewelry" } },
+        "status": { "id": 41, "label": "integrated" },
+        "lastSyncStatus": "2021-07-11"
+    },
+    {
+        "id": 42,
+        "name": "Shanahan, Dietrich and Auer",
+        "contract": { "start": "2020-01-08", "end": "2022-09-23" },
+        "brand": {
+            "id": 42,
+            "name": "FlexShares STOXX US ESG Impact Index Fund",
+            "brandType": { "id": 42, "label": "Industrial" }
+        },
+        "status": { "id": 42, "label": "integrated" },
+        "lastSyncStatus": "2020-01-22"
+    },
+    {
+        "id": 43,
+        "name": "Robel, Kozey and Hane",
+        "contract": { "start": "2020-01-07", "end": "2023-08-06" },
+        "brand": { "id": 43, "name": "Avenue Therapeutics, Inc.", "brandType": { "id": 43, "label": "Kids" } },
+        "status": { "id": 43, "label": "integrated" },
+        "lastSyncStatus": "2022-07-01"
+    },
+    {
+        "id": 44,
+        "name": "Kub, Mante and Gottlieb",
+        "contract": { "start": "2020-01-05", "end": "2023-12-08" },
+        "brand": { "id": 44, "name": "Waste Management, Inc.", "brandType": { "id": 44, "label": "Computers" } },
+        "status": { "id": 44, "label": "integrated" },
+        "lastSyncStatus": "2021-05-26"
+    },
+    {
+        "id": 45,
+        "name": "Sporer-Rempel",
+        "contract": { "start": "2020-01-08", "end": "2023-11-17" },
+        "brand": { "id": 45, "name": "Dynatronics Corporation", "brandType": { "id": 45, "label": "Automotive" } },
+        "status": { "id": 45, "label": "integrated" },
+        "lastSyncStatus": "2020-01-09"
+    },
+    {
+        "id": 46,
+        "name": "Ondricka, Connelly and Bartoletti",
+        "contract": { "start": "2020-01-01", "end": "2022-07-10" },
+        "brand": {
+            "id": 46,
+            "name": "VictoryShares US Small Cap Volatility Wtd ETF",
+            "brandType": { "id": 46, "label": "Automotive" }
+        },
+        "status": { "id": 46, "label": "integrated" },
+        "lastSyncStatus": "2020-11-18"
+    },
+    {
+        "id": 47,
+        "name": "Kunde-Tillman",
+        "contract": { "start": "2020-01-02", "end": "2023-11-30" },
+        "brand": { "id": 47, "name": "Opus Bank", "brandType": { "id": 47, "label": "Music" } },
+        "status": { "id": 47, "label": "integrated" },
+        "lastSyncStatus": "2023-02-15"
+    },
+    {
+        "id": 48,
+        "name": "Runolfsson LLC",
+        "contract": { "start": "2020-01-10", "end": "2021-06-05" },
+        "brand": { "id": 48, "name": "Golden Ocean Group Limited", "brandType": { "id": 48, "label": "Garden" } },
+        "status": { "id": 48, "label": "integrated" },
+        "lastSyncStatus": "2021-08-30"
+    },
+    {
+        "id": 49,
+        "name": "Rutherford-Nikolaus",
+        "contract": { "start": "2020-01-06", "end": "2023-01-01" },
+        "brand": { "id": 49, "name": "Marcus & Millichap, Inc.", "brandType": { "id": 49, "label": "Electronics" } },
+        "status": { "id": 49, "label": "integrated" },
+        "lastSyncStatus": "2020-12-31"
+    },
+    {
+        "id": 50,
+        "name": "Legros-Lebsack",
+        "contract": { "start": "2020-01-08", "end": "2023-02-08" },
+        "brand": {
+            "id": 50,
+            "name": "Telecom Argentina Stet - France Telecom S.A.",
+            "brandType": { "id": 50, "label": "Music" }
+        },
+        "status": { "id": 50, "label": "integrated" },
+        "lastSyncStatus": "2022-10-06"
+    }
+]
