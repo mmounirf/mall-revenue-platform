@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Skilith",
+        "summary": { "shopCount": 56, "rentedCount": 11, "integratedCount": 23 },
+        "location": { "country": "Egypt", "city": "Ziftá", "address": "9 Sunfield Place" }
+    },
+    {
+        "id": 2,
+        "name": "Photofeed",
+        "summary": { "shopCount": 95, "rentedCount": 22, "integratedCount": 22 },
+        "location": { "country": "Egypt", "city": "Port Said", "address": "6 Kedzie Parkway" }
+    },
+    {
+        "id": 3,
+        "name": "Gigabox",
+        "summary": { "shopCount": 88, "rentedCount": 26, "integratedCount": 27 },
+        "location": { "country": "Egypt", "city": "Al Manshāh", "address": "8532 Steensland Lane" }
+    },
+    {
+        "id": 4,
+        "name": "Photospace",
+        "summary": { "shopCount": 59, "rentedCount": 40, "integratedCount": 48 },
+        "location": { "country": "Egypt", "city": "Quwaysinā", "address": "4 Kropf Park" }
+    },
+    {
+        "id": 5,
+        "name": "Kare",
+        "summary": { "shopCount": 59, "rentedCount": 47, "integratedCount": 13 },
+        "location": { "country": "Egypt", "city": "Al Manşūrah", "address": "1774 Rusk Center" }
+    },
+    {
+        "id": 6,
+        "name": "Jetpulse",
+        "summary": { "shopCount": 70, "rentedCount": 41, "integratedCount": 38 },
+        "location": { "country": "Egypt", "city": "Abū Tīj", "address": "15 Messerschmidt Drive" }
+    },
+    {
+        "id": 7,
+        "name": "Browsezoom",
+        "summary": { "shopCount": 53, "rentedCount": 14, "integratedCount": 39 },
+        "location": { "country": "Egypt", "city": "Makadi Bay", "address": "582 Delladonna Trail" }
+    },
+    {
+        "id": 8,
+        "name": "Yombu",
+        "summary": { "shopCount": 92, "rentedCount": 49, "integratedCount": 31 },
+        "location": { "country": "Egypt", "city": "Manfalūţ", "address": "64 Fulton Street" }
+    },
+    {
+        "id": 9,
+        "name": "Edgeblab",
+        "summary": { "shopCount": 67, "rentedCount": 41, "integratedCount": 31 },
+        "location": { "country": "Egypt", "city": "Juhaynah", "address": "023 Clyde Gallagher Pass" }
+    },
+    {
+        "id": 10,
+        "name": "Zoomcast",
+        "summary": { "shopCount": 89, "rentedCount": 21, "integratedCount": 28 },
+        "location": { "country": "Egypt", "city": "Ḩawsh ‘Īsá", "address": "87 Nobel Pass" }
+    }
+]
