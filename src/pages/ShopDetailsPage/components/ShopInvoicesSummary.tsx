@@ -12,12 +12,13 @@ interface ShopInvoicesSummary {
 }
 
 const ShopInvoicesSummary = ({ count, value, refundCount, refundValue, loading }: ShopInvoicesSummary) => {
+
     return (
         <SimpleGrid cols={2} breakpoints={[{ maxWidth: 'md', cols: 1 }]} mt="sm">
             <Paper px={20} py={5} withBorder>
                 <Group position="apart">
                     <div>
-                        <Badge color="green">{count - refundCount} Sale Invoices</Badge>
+                        <Badge color="green">{Math.abs(count - refundCount)} Sale Invoices</Badge>
                         <Skeleton visible={loading} miw={100}>
                             <Text weight={700} size="xl">
                                 {moneyFormat(value - refundValue)}
